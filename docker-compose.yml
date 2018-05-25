@@ -7,3 +7,4 @@ services:
     volumes:
      - ./cache:/var/spool/squid3
      - ./squid.conf:/etc/squid3/squid.conf 
+     - ./logs:/var/log/squid3
